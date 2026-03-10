@@ -1,6 +1,4 @@
-p----9
-
-
+p-----------10
 /* PAGE BACKGROUND */
 
 body{
@@ -8,14 +6,21 @@ background:#ebebeb;
 }
 
 
+
 /* CONTACT PAGE */
 
 .contact-page{
+
 max-width:900px;
+
 margin:80px auto;
+
 padding:20px;
+
 text-align:center;
+
 }
+
 
 
 /* INTRO */
@@ -35,92 +40,166 @@ line-height:1.6;
 }
 
 
+
 /* GRID */
 
 .contact-grid{
+
 display:grid;
+
 grid-template-columns:repeat(2,1fr);
-gap:35px;
+
+gap:40px;
+
 margin-top:40px;
-margin-bottom:50px;
+
+margin-bottom:60px;
+
 }
 
 
-/* CARDS */
+
+/* CARD */
 
 .contact-card{
+
 background:#ffffff;
-padding:30px 20px;
+
+padding:35px 25px;
+
 border-radius:16px;
+
 text-decoration:none;
+
 color:#2b2b2b;
-box-shadow:0 12px 25px rgba(0,0,0,0.08);
-transition:.35s;
-display:block;
+
+box-shadow:0 12px 30px rgba(0,0,0,0.08);
+
+transition:all .35s ease;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+min-height:180px;
+
 }
+
 
 
 /* ICON */
 
 .contact-icon{
-width:45px;
-margin-bottom:15px;
+
+width:48px;
+
+margin-bottom:18px;
+
 }
+
 
 
 /* TEXT */
 
 .contact-card h3{
-margin:8px 0;
+margin:6px 0;
 font-size:20px;
 }
 
 .contact-card p{
 margin:4px 0;
+font-size:15px;
 }
 
 .contact-card span{
-color:#666;
 font-size:14px;
+color:#777;
 }
+
 
 
 /* HOVER */
 
 .contact-card:hover{
+
 background:#2e6b46;
-color:#fff;
-transform:translateY(-6px);
-box-shadow:0 25px 60px rgba(0,0,0,0.25);
+
+color:#ffffff;
+
+transform:translateY(-6px) scale(1.03);
+
+box-shadow:0 30px 70px rgba(0,0,0,0.25);
+
 }
 
 .contact-card:hover span{
-color:#fff;
+color:#ffffff;
 }
+
 
 
 /* LOCATION */
 
 .location{
-margin-top:30px;
+margin-top:10px;
 }
 
 .location h2{
 margin-bottom:8px;
+font-size:24px;
 }
 
 .location p{
 color:#555;
+font-size:17px;
 }
+
 
 
 /* MOBILE */
 
 @media(max-width:800px){
 
+.contact-page{
+
+margin:120px auto 60px;
+
+padding:20px 35px;
+
+}
+
+
+
+/* STACK CONTACT BUTTONS */
+
 .contact-grid{
+
 grid-template-columns:1fr;
+
 gap:25px;
+
+}
+
+
+
+.contact-card{
+
+min-height:160px;
+
+padding:30px 20px;
+
+}
+
+
+
+.location{
+margin-top:40px;
 }
 
 }
