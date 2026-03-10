@@ -1,4 +1,4 @@
-NEW code - 3
+NEW code - 4
 
 :root{
 
@@ -83,11 +83,9 @@ display:grid;
 
 grid-template-columns:repeat(2,1fr);
 
-gap:35px;
+gap:15px;
 
-max-width:820px;
-
-margin:40px auto;
+margin-bottom:30px;
 
 }
 
@@ -99,9 +97,9 @@ margin:40px auto;
 
 background:var(--card);
 
-padding:28px;
+padding:15px;
 
-border-radius:16px;
+border-radius:12px;
 
 text-decoration:none;
 
@@ -109,7 +107,7 @@ color:var(--text);
 
 transition:.35s;
 
-box-shadow:0 12px 25px var(--shadow);
+box-shadow:0 10px 10px var(--shadow);
 
 cursor:pointer;
 
@@ -127,9 +125,10 @@ user-select:none;
 /* ICON */
 
 .contact-icon{
-width:48px;
+width:40px;
 margin-bottom:15px;
 }
+
 
 
 /* CARD TEXT */
@@ -225,18 +224,65 @@ opacity:.7;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE */
 
 @media(max-width:800px){
 
 .contact{
 padding:20px 40px;
-  margin-top:80px;
 margin-bottom:80px;
 }
 
 .contact-intro{
-margin-top:220px;
+margin-top:290px;
 margin-bottom:40px;
 }
 
