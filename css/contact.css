@@ -1,3 +1,5 @@
+NEW code-1 
+
 :root{
 
 --accent:#2e6b46;
@@ -29,7 +31,6 @@ color:var(--text);
 }
 
 
-
 /* MAIN CONTACT SECTION */
 
 .contact{
@@ -53,7 +54,6 @@ justify-content:center;
 }
 
 
-
 /* INTRO */
 
 .contact-intro{
@@ -72,7 +72,6 @@ line-height:1.6;
 }
 
 
-
 /* GRID */
 
 .contact-grid{
@@ -86,7 +85,6 @@ gap:15px;
 margin-bottom:30px;
 
 }
-
 
 
 /* CARD */
@@ -119,14 +117,12 @@ user-select:none;
 }
 
 
-
 /* ICON */
 
 .contact-icon{
 width:40px;
 margin-bottom:15px;
 }
-
 
 
 /* CARD TEXT */
@@ -145,7 +141,6 @@ line-height:1.6;
 font-size:14px;
 color:#666;
 }
-
 
 
 /* HOVER EFFECT */
@@ -167,11 +162,11 @@ box-shadow:0 35px 80px var(--hoverShadow);
 }
 
 
-
 /* LOCATION */
 
 .location{
-margin-top:10px;
+margin-top:40px;   /* more space above location */
+margin-bottom:40px; /* space before footer */
 }
 
 .location h2{
@@ -183,7 +178,6 @@ margin-bottom:8px;
 color:#555;
 font-size:17px;
 }
-
 
 
 /* SCREEN DIM EFFECT */
@@ -213,61 +207,11 @@ z-index:5;
 }
 
 
-
 /* ACTIVATE DIM */
 
 .contact:has(.contact-card:hover)::before{
 opacity:.7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* MOBILE */
@@ -279,8 +223,10 @@ padding:20px 40px;
 margin-bottom:80px;
 }
 
+/* PUSH "LET'S CONNECT" DOWN BELOW NAVBAR */
+
 .contact-intro{
-margin-top:10px;
+margin-top:80px;   /* main fix for overlap */
 margin-bottom:40px;
 }
 
@@ -289,22 +235,22 @@ border:none;
 border-top:1px solid #c7c7c7;
 margin:75px 0;
 }
+
 .contact-grid{
 grid-template-columns:1fr;
 }
-/* Move footer up only on contact page */
 
-footer{
-margin-top:-25px;
+/* ADD SPACE ABOVE LOCATION */
+
+.location{
+margin-top:60px;
+margin-bottom:60px;
 }
-/* Move footer up only on contact page */
+
+/* Move footer slightly up */
 
 body:has(.contact) footer{
-margin-top:-40px;
+margin-top:-30px;
 }
 
 }
-
-
-
-
