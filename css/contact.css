@@ -1,10 +1,10 @@
-p2 
+p3
 
 
 :root{
 
 --accent:#2e6b46;
---bg:#ebebeb;
+--bg:#transparent;
 
 --card:#ffffff;
 
@@ -307,3 +307,4 @@ margin-top:-40px;
 }
 
 }
+
