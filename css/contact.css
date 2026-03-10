@@ -1,6 +1,22 @@
-p----------13
+p----------14
 
 /* CONTACT PAGE */
+
+/* CENTER INTRO TEXT */
+
+.contact-intro{
+max-width:600px;
+margin:0 auto 50px auto;
+text-align:center;
+}
+
+/* CENTER LOCATION */
+
+.location{
+max-width:600px;
+margin:40px auto 0 auto;
+text-align:center;
+}
 
 .contact-page{
 
@@ -187,5 +203,6 @@ margin-top:35px;
 }
 
 }
+
 
 
