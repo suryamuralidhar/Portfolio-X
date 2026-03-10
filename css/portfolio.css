@@ -145,6 +145,60 @@ border:none;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE */
 
 @media(max-width:900px){
@@ -184,9 +238,9 @@ cursor:default;
 }
 .portfolio{
 max-width:1100px;
-margin:40px auto 10px auto;
+margin:170px auto 200px auto;
 min-height:calc(1vh - 140px);
-padding:40px 80px;
+padding:40px 40px;
 text-align:center;
 }
 
@@ -360,5 +414,15 @@ padding:10px 20px;
 border-radius:6px;
 
 cursor:pointer;
+
+}
+
+@media (max-width:370px){
+
+.portfolio{
+padding-left:30px;
+padding-right:13px;
+}
+
 
 }
