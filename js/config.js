@@ -16,7 +16,7 @@ const CONFIG = {
 
     // Panorama image location
     // Path is relative to 360.html
-    panoramaImage: "images/liv.jpg",
+    panoramaImage: "images/1L.jpg",
 
 
     // ==========================
@@ -52,6 +52,7 @@ const CONFIG = {
     dragFriction: 0.5
 
 };
+
 
 
 
