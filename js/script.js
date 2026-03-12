@@ -2,8 +2,6 @@
    LOAD NAVBAR
 ========================= */
 
-
-
 fetch("components/navbar.html")
 .then(response => response.text())
 .then(data => {
@@ -15,15 +13,11 @@ document.getElementById("navbar").innerHTML = data;
    LOAD FOOTER
 ========================= */
 
-
-
 fetch("components/footer.html")
 .then(response => response.text())
 .then(data => {
 document.getElementById("footer").innerHTML = data;
-
 });
-
 
 
 /* =========================
@@ -130,6 +124,3 @@ popup.style.display="none";
 }
 
 }
-
-
-
