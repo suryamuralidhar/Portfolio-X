@@ -130,3 +130,24 @@ popup.style.display="none";
 }
 
 }
+
+
+/* ===== BACKGROUND MUSIC ===== */
+
+const music = document.getElementById("bgMusic");
+
+if(music){
+
+music.src = CONFIG.musicFile;
+
+music.volume = CONFIG.musicVolume;
+
+music.play().catch(()=>{
+
+// browsers sometimes block autoplay
+console.log("Autoplay blocked until user interaction");
+
+});
+
+}
+
