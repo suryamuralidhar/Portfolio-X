@@ -1,4 +1,4 @@
-//Rev3
+//Rev4
 
 
 const CONFIG = {
@@ -7,7 +7,7 @@ title: "Villa Interior – Living Room",
 
 heading: "Living Room – Villa Interior",
 
-panoramaImage: "images/Liv.tif",
+panoramaImage: "images/1.png",
 
 popupText: `
 <b>Disclaimer</b><br><br>
@@ -25,6 +25,7 @@ popupDelay: 1000,
 dragFriction: 0.5
 
 };
+
 
 
 
