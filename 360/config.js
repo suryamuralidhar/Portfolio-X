@@ -51,10 +51,11 @@ const CONFIG = {
 
     musicFile: "../music/1.mp3",
 
-musicVolume: 0.1
+musicVolume: 0.25
 
     
 
 };
+
 
 
