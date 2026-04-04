@@ -8,9 +8,9 @@ const CONFIG = {
     // PROJECT INFORMATION
     // ==========================
 
-    title: "Villa Interior – Living Room",
+    title: "Villa Interior – Women's Majlis",
 
-    heading: "Living Room – Villa Interior",
+    heading: "Women's Majlis – Villa Interior",
 
     // Panorama image location
     // Path is relative to 360.html
